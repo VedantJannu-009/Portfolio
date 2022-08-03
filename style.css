@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* navibar styling  */
+.navibar{
+    position: fixed;
+    width: 100%;
+    padding: 30px 0;
+    font-family: 'ubuntu', sans-serif; 
+    transition: all 0.7s ease;
+}
+.navibar .sticky{
+    padding: 15px 0;
+    background-color: crimson;
+}
+.navlinks{
+    display: flex;
+    justify-content: space-between;
+}
+.navibar.menu{
+    padding: 35px 0;
+}
+.navibar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navibar .logo a {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navibar .logo a span{
+    color: crimson;
+}
+.navibar .menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+}
+.navibar .menu li{
+    list-style: none;
+}
+.navibar .menu li a{
+    list-style: none;
+    
+   }
+
+.navibar .menu li a{
+    color: #fff;
+    font-size: 500;
+    margin-left: 25px;
+    transition: color 0.3 ease;
+}
+.navibar .menu li a:hover{
+    color:crimson;
+}
+.fa-bars{
+    color: #fff;
+    width: 50px;
+
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    background: url(resources/images/640208.jpg) no-repeat center;
+    height: 280vh;
+    color: #fff;
+    font-family: 'ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 60px;
+}
+.home .home-content .hometext{
+    font-size: 2rem
+}
+
+.home .home-content .text-3 span{
+    color: crimson;
+    font-weight: 600;
+
+}
+
+/* About section styling */
+.about{
+    /* position: absolute; */
+
+}
